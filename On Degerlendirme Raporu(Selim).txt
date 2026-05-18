@@ -1,0 +1,32 @@
+2. Proje Özeti (Kısa)
+Bu proje, Windows işletim sistemlerinde çalışan uygulamaların donanım kaynaklarını (özellikle RAM) verimsiz kullanmasını engellemek amacıyla geliştirilen, yapay zeka destekli bir akıllı performans yöneticisidir. Proje; C# ve WPF teknolojileri kullanılarak geliştirilmiş modern bir arayüze ve arka planda çalışan süreçleri analiz eden hafif bir makine öğrenmesi modeline dayanmaktadır. Uygulama, kullanıcının o anki bilgisayar kullanım senaryosunu (oyun, yazılım geliştirme, günlük kullanım vb.) tespit ederek arka plandaki gereksiz süreçleri otomatik olarak optimize eder ve bilgisayar performansını maksimuma çıkarır.
+
+2.1. Projenin amacı nedir?
+Projenin temel amacı, standart Windows Görev Yöneticisi'nin sunduğu manuel müdahale zorunluluğunu ortadan kaldırmaktır. Yapay zeka entegrasyonu sayesinde, bilgisayardaki RAM ve işlemci yükünü anlık olarak analiz eden, kullanıcının öncelikli olarak odaklandığı uygulamaya (örneğin yüksek donanım isteyen bir oyun veya tasarım programı) otomatik olarak kaynak aktarımı sağlayan akıllı ve dinamik bir sistem geliştirmektir.
+
+2.2. Hangi problemi çözüyor?
+Günümüz bilgisayarlarında arka planda çalışan tarayıcı sekmeleri, güncelleme servisleri ve kullanılmayan uygulamalar yüksek miktarda RAM tüketerek bilgisayarı yavaşlatmaktadır. Mevcut Windows Görev Yöneticisi bu duruma otomatik müdahale edemez ve kullanıcıların hangi arka plan işleminin güvenle kapatılabileceğini bilmesi zordur. Projemiz;
+
+Yetersiz RAM kaynaklı donma ve kasma problemlerini,
+
+Kullanıcıların hangi programı kapatacağını manuel olarak seçmek zorunda kalması karmaşasını,
+
+Arka planda gereksiz kaynak tüketen servislerin tespit edilememesi sorununu çözmektedir.
+
+2.3. Kimler için?
+Projenin hedef kitlesi:
+
+Sınırlı donanıma veya düşük RAM kapasitesine sahip bilgisayar kullanıcıları,
+
+Bilgisayarından tam performans almak isteyen oyuncular (Gamers),
+
+Ağır yazılımlar kullanan öğrenciler, yazılımcılar ve tasarımcılar,
+
+Bilgisayarın teknik arka plan işlemlerinden anlamayan ve tek tıkla optimizasyon isteyen genel kullanıcı kitlesidir.
+
+2.4. Beklenen fayda nedir?
+Performans Artışı: Donanım yükseltmeye (ekstra RAM almaya) gerek kalmadan, mevcut sistem kaynaklarının en doğru şekilde kullanılmasıyla bilgisayar performansında gözle görülür artış sağlanması.
+
+Kullanıcı Dostu Otomasyon: Yapay zekanın güvenli ve gereksiz süreçleri ayırt ederek kullanıcı müdahalesine gerek kalmadan sistemi sürekli akıcı tutması.
+
+Enerji ve Zaman Tasarrufu: Gereksiz işlemlerin sonlandırılmasıyla işlemci yükünün azaltılması, böylece özellikle dizüstü bilgisayarlarda pil ömrünün uzaması ve donma sorunlarının çözülmesiyle zamandan tasarruf edilmesi.
