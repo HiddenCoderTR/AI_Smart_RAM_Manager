@@ -1,15 +1,23 @@
-﻿<Window x:Class="AI_Smart_RAM_Manager.MainWindow"
+﻿<Window x:Name="pencere" x:Class="AI_Smart_RAM_Manager.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AI_Smart_RAM_Manager"
         mc:Ignorable="d"
-        Title="WPF Application Project" Height="450" Width="800">
-	<Grid>
-		<TextBox x:Name="textbox1" HorizontalAlignment="Left" Margin="233,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="71" TextChanged="TextBox_TextChanged" Height="25" Text="sa"/>
-		<Button x:Name="buton" Content="Butona basun" HorizontalAlignment="Left" Margin="278,252,0,0" VerticalAlignment="Top" Height="109" Width="290" Click="Button_Click"/>
-        <Label x:Name="etiket" Content="etiket" HorizontalAlignment="Left" Margin="568,184,0,0" VerticalAlignment="Top"/>
+        Title="AI Smart RAM Manager" Height="450" Width="800" Icon="ugandan_knux.ico" WindowStartupLocation="CenterScreen">
+	<Grid Margin="20">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
 
-    </Grid>
+		<StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0,0,0,10">
+			<TextBlock Text="Çalışan Uygulamalar" FontSize="18" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,20,0"/>
+			<Button x:Name="BtnYenile" Content="Listeyi Yenile" Click="reloadButtonClick" Padding="10,5"/>
+			<Button x:Name="BtnKapat" Content="Görevi Sonlandır" Click="killButtonClick" Padding="10,5" Background="IndianRed" Foreground="White"/>
+		</StackPanel>
+
+		<ListBox x:Name="programsList" Grid.Row="1" DisplayMemberPath="ProcessName"/>
+	</Grid>
 </Window>
