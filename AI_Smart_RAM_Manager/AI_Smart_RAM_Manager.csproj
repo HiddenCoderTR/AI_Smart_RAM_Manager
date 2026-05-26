@@ -8,6 +8,16 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="ugandan_knux.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ugandan_knux.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
   
 
 </Project>
